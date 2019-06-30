@@ -1,7 +1,27 @@
 /**********************TAG SELECTORS************************/
-
-
 /**********************CLASS SELECTORS************************/
+.container1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
 
+.container1>img {
+  display: flex;
+  position: absolute;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grow-box {
+  width: 65%
+}
+
+.container2 img {
+  width: 200px;
+}
 
 /**********************ID SELECTORS************************/
