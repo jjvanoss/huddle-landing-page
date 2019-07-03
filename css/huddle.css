@@ -1,17 +1,24 @@
 /**********************TAG SELECTORS************************/
-/**********************CLASS SELECTORS************************/
-.container1 {
-  display: flex;
-  position: relative;
-  justify-content: center;
+body {
+  margin: 0
 }
 
-.container1>img {
-  display: flex;
-  position: absolute;
+/**********************CLASS SELECTORS************************/
+.container1 {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: auto;
+}
+
+.logo-black {
+padding-right: 500px;
+}
+.resize-img {
+max-width: 500px;
 }
 
 .container2 {
+}
+.container3 {
   display: flex;
   flex-wrap: wrap;
 }
@@ -20,7 +27,7 @@
   width: 65%
 }
 
-.container2 img {
+.container3 img {
   width: 200px;
 }
 
