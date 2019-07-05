@@ -6,50 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="css/huddle.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
 </head>
 
 <body>
-  <div class="container1">
-    <img src="images/bg-hero-desktop.svg" alt="top-pattern-background">
-    <img src="images/logo.svg" alt="huddle-logo">
-    <button type="button" name="button">Try It Free</button>
-    <h1>Build The Community Your Fans Will Love</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-      Create connections with your users as you engage in genuine discussion.</p>
-<button type="button" name="button"> Get Started For Free</button>
-    <img src="images/illustration-mockups.svg" alt="desktop-mobile-image">
-  </div>
+  <div class="background">
+    <div class="container1">
+      <img class="logo-black" src="images/logo.svg" alt="huddle-logo">
+      <button type="button" name="button">Try It Free</button>
+    </div>
+    <div class=container2>
+      <div class="build">
+        <h1>Build The Community Your Fans Will Love</h1>
 
-  <div class="container2">
-    <div class="grow-box">
-      <h3>Grow Together</h3>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-        Think of the insightful conversations you miss out on with a feedback form.
-        <img src="images/illustration-grow-together.svg" alt="grow-together-image">
-      </p>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+        <button type="button" name="button"> Get Started For Free</button>
+      </div>
+        <img class="resize-img" src="images/illustration-mockups.svg" alt="desktop-mobile-image">
     </div>
   </div>
+  <h3>Grow Together</h3>
   <div class="container3">
-    <div class="flowing-box">
-      <h3>Flowing Conversations</h3>
+    <p class="grow-box">Generate meaningful discussions with your audience and build a strong, loyal community.
+      Think of the insightful conversations you miss out on with a feedback form.
+    </p>
+    <img class="middle-imgs" src="images/illustration-grow-together.svg" alt="grow-together-image">
+  </div>
+  <h3>Flowing Conversations</h3>
+  <div class="container4">
+    <div class="users-box">
+      <img class="middle-imgs" src="images/illustration-flowing-conversation.svg" alt="flowing-conversation-illustration">
+
       <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
         have just-in-time loading for a more natural flow.
-        <img src="images/illustration-flowing-conversation.svg" alt="flowing-conversation-illustration">
+
       </p>
     </div>
   </div>
   <div class="container4">
     <div class="users-box">
-    <h3>Your Users</h3>
-    <p>It takes no time at all to integrate Huddle with your app's authentication solution.
-      This means, once signed in to your app, your users can start chatting immediately.
-      <img src="images/illustration-your-users" alt="your-users-image">
-    </p>
+      <h3>Your Users</h3>
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+        This means, once signed in to your app, your users can start chatting immediately.
+        <img src="images/illustration-your-users" alt="your-users-image">
+      </p>
+    </div>
   </div>
-</div>
   <div class="container5">
     <h3> Ready To Build Your Community?
     </h3>
@@ -78,7 +84,7 @@
       <a href="https://twitter.com">
         <img src="images/twitter-icon.jpg" alt="twitter-icon">
       </a>
-      <a href="https://instagram.com/">
+      <ion-icon name="images/logo-instagram"></ion-icon>
         <img src="images/instagram-icon.png" alt="instagram-icon">
       </a>
     </p>

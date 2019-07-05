@@ -1,7 +1,88 @@
 /**********************TAG SELECTORS************************/
+/**Page widths
+- Mobile: 375px
+- Desktop: 1440px
+**/
 
+body {
+  max-width: 1440px;
+  padding: 0 20% 0 20%;
+  font-size: 18px;
+
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
 
 /**********************CLASS SELECTORS************************/
+.background {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: auto;
+}
+.logo-black {
+padding-right: 60%;
+}
 
+.container2 {
+display: inline-block;
+
+}
+.build {
+max-width: 300px;
+
+}
+.resize-img {
+max-width: 400px;
+position: relative;
+display: inline-block;
+left: 50%;
+bottom: 250px;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.middle-imgs {
+  max-width: 20%;
+}
+
+.grow-box {
+  width: 80%;
+  margin: 0 0 0 0;
+
+
+}
+.users-box {
+  width: 200px;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+  .container6 {
+    background-color: gray;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 50px 50px 50px;
+  }
 
 /**********************ID SELECTORS************************/
