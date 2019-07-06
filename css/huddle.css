@@ -6,12 +6,13 @@
 
 body {
   max-width: 1440px;
-  padding: 0 20% 0 20%;
   font-size: 18px;
+  margin: 0;
 
 }
 h1 {
   font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
 }
 h3 {
   font-family: 'Poppins', sans-serif;
@@ -33,27 +34,29 @@ button {
 }
 .logo-black {
 padding-right: 60%;
+padding-left: 50px;
 }
 
 .container2 {
 display: inline-block;
-
+padding: 0 50px 100px 50px;
 }
 .build {
-max-width: 300px;
+max-width: 400px;
 
 }
 .resize-img {
-max-width: 400px;
-position: relative;
-display: inline-block;
+max-width: 500px;
+position: absolute;
 left: 50%;
-bottom: 250px;
+top: 10%;
 }
 
 .container3 {
   display: flex;
   flex-wrap: wrap;
+/*drop-shadow on box*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
 
@@ -86,3 +89,7 @@ bottom: 250px;
   }
 
 /**********************ID SELECTORS************************/
+
+
+/**********************ATTRIBUTE SELECTORS************************/
+/*test use of attribute selector*/
